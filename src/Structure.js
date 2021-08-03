@@ -66,8 +66,10 @@ const Checkoutitem=()=>{
 
                                 <img src={a.icon} />
                                 <p>{a.name}</p>
+
                                 <h6>Price:₹{a.price}</h6>
                                 <h6>Weigth{a.weight}</h6>
+
                                 <h4>{a.brand}</h4>
                                 <button onClick={() => addtocart(a)}>Add to cart</button>
                             </div>
@@ -89,7 +91,9 @@ const Checkoutitem=()=>{
 
                                     <img src={cartitem.icon} />
                                     <p>{cartitem.name}</p>
+
                                     <h6>Price:₹{cartitem.price}</h6>
+
                                     <h6>Weigth{cartitem.weight}</h6>
                                     <h4>
                                         {cartitem.brand}
@@ -102,6 +106,7 @@ const Checkoutitem=()=>{
                 </ul>
             </div>
   <div className="Customerdetails">
+      
             <h6>Total No. of Items: {item.length}</h6>
             <h6>Grand Total  {item.map((ab)=>{
                 let aa=0;
