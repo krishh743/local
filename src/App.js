@@ -18,7 +18,7 @@ function App() {
     <div className="App">
      
 
-<Structure  />
+<Structure/>
 {/* <Data/> */}
     </div>
   );
