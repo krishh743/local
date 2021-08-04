@@ -95,6 +95,8 @@ const Checkoutitem=()=>{
                                     <h6>Price:₹{cartitem.price}</h6>
 
                                     <h6>Weigth{cartitem.weight}</h6>
+<h6>{cartitem.old_id}</h6>
+<h6>{cartitem.category_id}</h6>
                                     <h4>
                                         {cartitem.brand}
                                     </h4>
